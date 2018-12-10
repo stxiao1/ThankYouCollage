@@ -1,5 +1,5 @@
 PImage water;
-Pimage gif;
+PImage gif;
 PImage thank you;
 
 void setup() {
