@@ -1,21 +1,20 @@
-PImage img;
+PImage water;
+Pimage gif;
+PImage thank you;
 
 void setup() {
   size(672,900);
-  img = loadImage("Water.jpg4.jpg");
-  image(img,0,0,width*1,height*1);
-  img = loadImage("giphy.gif");
-  image(img,165,60,width/2,height/2);
-  img = loadImage("images.png");
-  image(img,mouseX,mouseY,200,200);
-  image(img,0,150);
+  water = loadImage("Water.jpg4.jpg");
+  gif = loadImage("giphy.gif");
+  thank you = loadImage("images.png");
   
 }
 
 void draw() {
- 
-  image(img,mouseX,mouseY,200,200);
-  
+  image(water,0,0,width*1,height*1);
+  image(gif,165,60,width/2,height/2);
+  image(thank you,mouseX,mouseY,200,200);
+  image(thank you,0,150);
   //if statments
     if (mousePressed) {
       fill(#90DDFA);
