@@ -1,20 +1,20 @@
 PImage water;
 PImage gif;
-PImage thank you;
+PImage thank;
 
 void setup() {
   size(672,900);
   water = loadImage("Water.jpg4.jpg");
   gif = loadImage("giphy.gif");
-  thank you = loadImage("images.png");
+  thank = loadImage("images.png");
   
 }
 
 void draw() {
   image(water,0,0,width*1,height*1);
   image(gif,165,60,width/2,height/2);
-  image(thank you,mouseX,mouseY,200,200);
-  image(thank you,0,150);
+  image(thank ,mouseX,mouseY,200,200);
+  image(thank ,0,150);
   //if statments
     if (mousePressed) {
       fill(#90DDFA);
@@ -30,6 +30,6 @@ void draw() {
   text("For Everyday Life",250,890);
   
   //thank you moving
-image(img,mouseX,mouseY,200,200);
+image(thank,mouseX,mouseY,200,200);
 
   }}
